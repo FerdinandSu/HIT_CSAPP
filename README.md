@@ -6,6 +6,26 @@
 
 ## 目录
 
-Lab4-Bufbomb相关提示
+### 实验
 
-https://github.com/FerdinandSukhoi/HIT_CSAPP/blob/master/Lab4_bufbomb.md
+https://github.com/FerdinandSukhoi/HIT_CSAPP/blob/master/Labs/
+
+#### Lab4-Bufbomb相关提示
+
+https://github.com/FerdinandSukhoi/HIT_CSAPP/blob/master/Labs/Lab4/Lab4_bufbomb.md
+
+
+
+### 作业
+
+https://github.com/FerdinandSukhoi/HIT_CSAPP/blob/master/HomeWork/
+
+
+
+### 大作业 Hello's P2P
+
+https://github.com/FerdinandSukhoi/HIT_CSAPP/blob/master/FinalAssignment/FinalAssignment.md
+
+#### 大作业相关附件见
+
+https://github.com/FerdinandSukhoi/HIT_CSAPP/blob/master/FinalAssignment/附件/

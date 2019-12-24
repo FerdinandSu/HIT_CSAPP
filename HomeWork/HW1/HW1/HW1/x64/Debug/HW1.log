@@ -1,0 +1,5 @@
+﻿  loctest.c
+  sizeof.c
+  正在生成代码...
+D:\Projects\Obj921CSAPP\HW1\HW1\HW1\loctest.c(6,1): warning C4305: “初始化”: 从“__int64”到“const float”截断
+  HW1.vcxproj -> D:\Projects\Obj921CSAPP\HW1\HW1\x64\Debug\HW1.exe

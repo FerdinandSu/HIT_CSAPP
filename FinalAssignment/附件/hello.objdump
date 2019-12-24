@@ -1,0 +1,56 @@
+
+hello.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	55                   	push   %rbp
+   1:	48 89 e5             	mov    %rsp,%rbp
+   4:	48 83 ec 30          	sub    $0x30,%rsp
+   8:	c7 45 fc 00 00 00 00 	movl   $0x0,-0x4(%rbp)
+   f:	89 7d f8             	mov    %edi,-0x8(%rbp)
+  12:	48 89 75 f0          	mov    %rsi,-0x10(%rbp)
+  16:	83 7d f8 03          	cmpl   $0x3,-0x8(%rbp)
+  1a:	74 1e                	je     3a <main+0x3a>
+  1c:	48 bf 00 00 00 00 00 	movabs $0x0,%rdi
+  23:	00 00 00 
+			1e: R_X86_64_64	.rodata.str1.1
+  26:	b0 00                	mov    $0x0,%al
+  28:	e8 00 00 00 00       	callq  2d <main+0x2d>
+			29: R_X86_64_PC32	printf-0x4
+  2d:	bf 01 00 00 00       	mov    $0x1,%edi
+  32:	89 45 e8             	mov    %eax,-0x18(%rbp)
+  35:	e8 00 00 00 00       	callq  3a <main+0x3a>
+			36: R_X86_64_PC32	exit-0x4
+  3a:	c7 45 ec 00 00 00 00 	movl   $0x0,-0x14(%rbp)
+  41:	83 7d ec 0a          	cmpl   $0xa,-0x14(%rbp)
+  45:	7d 3e                	jge    85 <main+0x85>
+  47:	48 bf 00 00 00 00 00 	movabs $0x0,%rdi
+  4e:	00 00 00 
+			49: R_X86_64_64	.rodata.str1.1+0x1f
+  51:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
+  55:	48 8b 70 08          	mov    0x8(%rax),%rsi
+  59:	48 8b 45 f0          	mov    -0x10(%rbp),%rax
+  5d:	48 8b 50 10          	mov    0x10(%rax),%rdx
+  61:	b0 00                	mov    $0x0,%al
+  63:	e8 00 00 00 00       	callq  68 <main+0x68>
+			64: R_X86_64_PC32	printf-0x4
+  68:	8b 3c 25 00 00 00 00 	mov    0x0,%edi
+			6b: R_X86_64_32S	sleepsecs
+  6f:	89 45 e4             	mov    %eax,-0x1c(%rbp)
+  72:	e8 00 00 00 00       	callq  77 <main+0x77>
+			73: R_X86_64_PC32	sleep-0x4
+  77:	89 45 e0             	mov    %eax,-0x20(%rbp)
+  7a:	8b 45 ec             	mov    -0x14(%rbp),%eax
+  7d:	83 c0 01             	add    $0x1,%eax
+  80:	89 45 ec             	mov    %eax,-0x14(%rbp)
+  83:	eb bc                	jmp    41 <main+0x41>
+  85:	e8 00 00 00 00       	callq  8a <main+0x8a>
+			86: R_X86_64_PC32	getchar-0x4
+  8a:	31 c9                	xor    %ecx,%ecx
+  8c:	89 45 dc             	mov    %eax,-0x24(%rbp)
+  8f:	89 c8                	mov    %ecx,%eax
+  91:	48 83 c4 30          	add    $0x30,%rsp
+  95:	5d                   	pop    %rbp
+  96:	c3                   	retq   

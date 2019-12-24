@@ -1,0 +1,11 @@
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\bin\Debug\netcoreapp3.0\YZYNMSL.exe
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\bin\Debug\netcoreapp3.0\YZYNMSL.deps.json
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\bin\Debug\netcoreapp3.0\YZYNMSL.runtimeconfig.json
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\bin\Debug\netcoreapp3.0\YZYNMSL.runtimeconfig.dev.json
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\bin\Debug\netcoreapp3.0\YZYNMSL.dll
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\bin\Debug\netcoreapp3.0\YZYNMSL.pdb
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\obj\Debug\netcoreapp3.0\YZYNMSL.csprojAssemblyReference.cache
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\obj\Debug\netcoreapp3.0\YZYNMSL.AssemblyInfoInputs.cache
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\obj\Debug\netcoreapp3.0\YZYNMSL.AssemblyInfo.cs
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\obj\Debug\netcoreapp3.0\YZYNMSL.dll
+D:\Projects\Obj921CSAPP\HW1\HW1\YZYNMSL\obj\Debug\netcoreapp3.0\YZYNMSL.pdb
